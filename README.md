@@ -18,10 +18,15 @@ O objetivo da aplicação, é poder ver uma lista com várias ideias criativas a
 
 #
 
-<h2>Tecnologia</h2>
+<h2>Tecnologias</h2>
 <ul>
-<li><a href="https://nodejs.org/en/">NodeJs</a></li>
-<li><a href="https://www.sqlite.org/index.html">SQLite</a></li>
+<li>NodeJs</li>
+<li>SQLite</li>
+<li>JavaScript</li>
+<li>Express</li>
+<li>Nunjucks</li>
+<li>Nodemon</li>
+  
 </ul>
   
 #
