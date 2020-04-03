@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% set bodyId = "page-ideas" %}
+
+{% block title %}
+  <title>Ideias - Casa Criativa</title>
+{% endblock title %}
+
+
+
+{% block content %}
+<header>
+  <a href="/">
+    <img src="/logo.png" alt="Casa Criativa">
+  </a>
+  <nav>
+    <li><a href="/">Início</a></li>
+    <li><a class="button" href="#" onclick="onOff()">Nova Ideia</a></li>
+  </nav>
+</header>
+
+<section id="title">
+  <p>em exibição</p>
+  <h1>Ideias</h1>
+</section>
+
+<main>
+  <section id="ideas">
+    {% include "all_ideas.html" %}
+  </section>
+</main>
+
+<footer>
+  <p id="footer">
+    Com <span style="color: #B40404">❤</span> <a href="#">Gabriela Santos</a>
+  </p>
+</footer>
+{% endblock %}
